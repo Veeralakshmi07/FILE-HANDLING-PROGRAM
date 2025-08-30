@@ -1,10 +1,16 @@
 # FILE-HANDLING-PROGRAM
-*COMPANY*:CODETECH IT SOLUTIONS
-*NAME*:VEERALAKSHMI
-*INTERN ID*:CTO4DY62
-*DOMAIN*:C PROGRAMMING
-*DURATION*:4WEEKS
-*MENTOR*:NEELA SANTHOSH
+*COMPANY*: CODETECH IT SOLUTIONS
+
+*NAME*: VEERALAKSHMI
+
+*INTERN ID*: CTO4DY62
+
+*DOMAIN*: C PROGRAMMING
+
+*DURATION*: 4WEEKS
+
+*MENTOR*: NEELA SANTHOSH
+
 This C program demonstrates the use of basic file handling operations, specifically writing, appending, and reading text from a file. The program guides the user through entering two separate lines of input, which are then written and appended to a file named test.txt. After storing the input, the program reads and displays the full content of the file on the console. The main objective is to introduce and implement standard file handling functions such as fopen, fgets, fputs, fclose, and to use file modes like "w", "a", and "r" effectively.
 The program begins by opening the file test.txt in write mode ("w"). This mode either creates the file if it doesn't exist or clears the existing contents if the file is already present. The user is prompted to enter the first line, which is stored in a character array using the fgets() function. This line is then written to the file using fputs(), and the file is closed using fclose().
 In the second stage, the same file is reopened in append mode ("a"), which ensures that new content is added to the end of the file without deleting its existing contents. The user is asked to enter a second line, which is read in the same way and appended to the file. Again, the file is closed after writing.
