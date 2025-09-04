@@ -23,3 +23,4 @@ Furthermore, the inclusion of file error handling (if (fp == NULL)) demonstrates
 In conclusion, this program effectively introduces and implements basic file handling operations in C. By using Visual Studio Code, the development experience is enhanced through features such as live error detection, intelligent code suggestions, and an integrated terminal for compilation and execution. The combination of a practical program and a modern development environment offers a solid learning experience for any beginner in C programming.
 
 #OUTPUT:
+![Image](https://github.com/user-attachments/assets/0ba19788-4a07-40af-b936-b170fd9d2a21)
